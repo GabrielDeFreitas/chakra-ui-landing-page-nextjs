@@ -2,6 +2,8 @@ This is a simple study project use Next.js and Chakra UI.
 
 To view the project, access [Chakra-UI-Landing-Page](https://landing-page-nextjs-chakra-ui.vercel.app/)
 
+<img src="/public/pageImage.PNG">
+
 ## Getting Started
 
 First, run the development server:
