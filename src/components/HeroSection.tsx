@@ -43,10 +43,11 @@ export default function HeroSection() {
             alignSelf={'center'}
             position={'relative'}>
             <Button
+              size={'lg'}
               colorScheme={'green'}
               bg={'green.400'}
               rounded={'full'}
-              px={6}
+              px={12}
               _hover={{
                 bg: 'green.500',
               }}>
