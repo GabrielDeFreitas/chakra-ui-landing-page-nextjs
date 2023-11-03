@@ -22,6 +22,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons'
+import Logo from './Logo'
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
@@ -54,7 +55,7 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            Logo
+            <Logo/>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
